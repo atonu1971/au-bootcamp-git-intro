@@ -93,4 +93,13 @@ echo "$@"
 # Good luck!
 #
 # ADD YOUR CODE BELOW:
+# Atonu is writing the code
+
+for file in "$@"
+        do
+                grep ">" $file | wc -l
+
+                echo "$@"
+        done
+
 
